@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#allezvoirpage{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: #2c2c2c;
+}
+
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+header{ 
+width: 100%;
+margin: auto;
+background-color: black;
+}
+
+#contenu{
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+ nav{
+ 	width: 15%;
+ 	border: 0px solid black;
+ 	margin-top: 30px;
+ 	height: auto;
+
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 1.1em;
+
+	position: fixed;
+ }
+
+ #pdp{
+ 	width: 60%;
+ 	border: 0px solid black;
+ 	margin: auto;
+	display: block;
+ }
+
+ ul{
+ 	 border: 0px solid black;
+ 	 text-align: center;
+ 	 padding: 5%;
+ }
+
+ li{
+ 	border: 0px solid black;
+ 	padding: 4%;
+ }
+
+ #selected{
+ 	color: #5d5d5d;
+ 	font-weight: bold;
+ }
+
+ #barrenav{
+ 	width: 3.9%;
+ 	margin-top: -173%;
+ 	margin-left: 90%;
+ 	border: 0px solid black;
+ }
+
+ #events{
+ 	border: 0px solid black;
+ 	width: 84%;
+ 	margin: auto;
+ 	margin-top: 30px;
+ }
+
+  #titreevents{
+ 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 15%;
+	padding-bottom: 3%;
+ }
+
+ article{
+	border: 0px solid black;
+ 	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: black;
+	font-size: 0.95em;
+	margin: auto;
+	margin-bottom: 3%;
+	width: 69%;
+	background-color: #e1e1e1;
+	display: flex;
+	padding-left: 1.2%;
+	padding-top: 1.2%;
+	padding-bottom: 1.2%;
+	padding-right: 1.2%;
+}
+
+#photoevent{
+	border: 0px solid black;
+	width: 11%;
+	height: 11%;
+}
+
+#contenuarticle{
+	padding-left: 1.5%;
+}
+
+#titreentier{
+	padding-bottom: 1%;
+}
+
+#orga{
+	font-size: 0.85em;
+}
+
+#etoiles{
+	width: 16%;
+	padding-bottom: 0.5%;
+}
+
+#eventtitle{
+	font-weight: bold;
+}
+
+#pevent{
+
+}
+
+ h6{
+	text-align: center;
+	margin-top: 15%;
+	border: 0px solid black;
+	font-size: 0.7em;
+}
+
+#lienphotos{ 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1.1em;
+	position: fixed;
+	bottom: 3%;
+	left: 3%;
+}
+
+#pages{ 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1.1em;
+	position: fixed;
+	bottom: 3%;
+	right: 3%;
+
+}
