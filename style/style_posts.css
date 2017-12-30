@@ -61,13 +61,6 @@ background-color: black;
 	height: auto;
 }
 
-#psignup{
-	color: #5d5d5d;
-	text-align: center;
-	margin-top: -5%;
-	padding-bottom: 4%;
-	margin-left: -1.5%;
-}
 
  nav{
  	width: 15%;
@@ -124,6 +117,32 @@ h6{
 	border: 0px solid black;
 	width: 84%;
 	margin: auto;
+}
+
+#signup{
+	border: 0px solid black;
+	width: 84%;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
+#anon{
+	width: 12%;
+}
+
+#champsignup{
+	border: 2px solid #d3d3d3;
+	width: 80%;
+	margin: auto;
+	margin-top: -10%;
+	margin-left: 15%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#psignup{
+	color: #5d5d5d;
+	text-align: center;
 }
 
 #divpost{
